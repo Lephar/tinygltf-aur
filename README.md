@@ -1,3 +1,9 @@
-`updpkgsums`
-`#makepkg --geninteg >> PKGBUILD`
-`makepkg --printsrcinfo > .SRCINFO`
+```
+updpkgsums
+```
+```
+#makepkg --geninteg >> PKGBUILD
+```
+```
+makepkg --printsrcinfo > .SRCINFO
+```
