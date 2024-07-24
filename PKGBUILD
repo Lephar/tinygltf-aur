@@ -3,14 +3,14 @@
 # Update SRCINFO: makepkg --printsrcinfo > .SRCINFO
 
 pkgname=tinygltf
-pkgver=2.8.23
+pkgver=2.9.2
 pkgrel=1
 pkgdesc="Header only C++ tiny glTF library(loader/saver)"
 arch=('any')
 url="https://github.com/syoyo/$pkgname"
 license=('MIT')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('e6dbbb0952cdefa1d9c87a99b686d1e67755fd9b0a5872b4008d042159e77de5')
+sha256sums=('b34d1456bb1d63bbb4e05ea1e4d8691d0253a03ef72385a8bffd2fae4b743feb')
 
 package() {
   cd $pkgname-$pkgver
